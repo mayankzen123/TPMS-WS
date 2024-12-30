@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Tester</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WebSocket Tester</h1>
+        
+        <div class="connection-status">
+            Status: <span id="status">Disconnected</span>
+        </div>
+
+        <div class="message-input">
+            <input type="text" id="messageInput" placeholder="Enter message">
+            <button id="sendBtn">Send</button>
+        </div>
+
+        <div class="messages">
+            <h2>Messages</h2>
+            <div id="messageLog"></div>
+        </div>
+    </div>
+    <script src="client.js"></script>
+</body>
+</html>
